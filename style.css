@@ -439,7 +439,8 @@ li:hover {
 }
 #sc-5 img{
    
-   width: 48%;
+   width: 96%;
+   
    
    
 }
@@ -525,6 +526,17 @@ li:hover {
     max-width: 52px;
     margin-right: 12px;
     margin-top: 6px;
+}
+/* section 7 */
+.sc6{
+    margin-top: 30px;
+    flex-direction: row-reverse;
+}
+/* section 8 */
+.sc7{
+    margin-top: 30px;
+    
+    flex-direction: row;
 }
 /* media query */
 
@@ -766,6 +778,9 @@ li:hover {
 .commatext{
     width: 50%;
 }
+.img18{
+    margin-left: 20px;
+}
 
 }
 
@@ -777,6 +792,10 @@ li:hover {
     #sc-5{
         margin-top: 30%;
     }
+    .sc6 .img18{
+        margin-top: -20%;
+    }
+   
 
 }
 
@@ -791,6 +810,13 @@ li:hover {
     .commatext{
         width: 100%;
     }
+    .sc6 .img18{
+        margin-top: -120%;
+    }
+    .up{
+        margin-top: -40%;
+    }
+    
 }
 
 @media (max-width:466px) {
@@ -824,11 +850,23 @@ li:hover {
     #sc-5{
         margin-top: 160%;
     }
+    .up{
+        margin-top: -60%;
+    }
+   
    
 
 }
 @media(max-width:412px){
     #sc-5{
-        margin-top: 230%;
+        margin-top: 200%;
     }
+    .sc6{
+        margin: 0;
+    }
+    .up{
+        margin-top: -110%;
+    }
+   
+    
 }
