@@ -752,11 +752,81 @@ ul li {
    
 
 }
+#sc-10{
+    text-align: center;
+}
+.testing h2{
+    margin-top: 10%;
+    margin-bottom: 3%;
+}
+.testing p{
+    margin-bottom: 3.5%;
+}
+.testing button{
+    margin-bottom: 7%;
+}
+#sc-10{
+    font-size: 25px;
+   
+}
 .image-part img{
 width: 100%;
 margin: 100px 0;
+padding: auto auto;
 }
 
+.start{
+    height: 3.4rem;
+    width: 10.5rem;
+    background-color: #2294ed;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 4px;
+}
+.start a{
+    color: white;
+}
+/* section 11 */
+#sc-11{
+    background-color: #ebf2fa;
+}
+.container11{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 1320px;
+    margin: 0px auto;
+   
+   
+}
+
+.val{
+    width: 25%;
+    margin-top: 70px;
+}
+.val  h3{
+    letter-spacing: -.5px;
+    margin-top: 3%;
+    font-size: 20px;
+    color: #183b56;
+    text-align: left;
+    margin-bottom: 16px;
+    font-family: Averta PE,sans-serif;
+    font-weight: 600;
+    line-height: 1.2;
+}
+.val p{
+    font-size: 18px;
+    margin-bottom: 7px;
+}
+.val img{
+    width: 70%;
+}
+/* .val{
+    width: 25%;
+} */
 /* media query */
 
 @media (max-width:1326px) {
@@ -784,6 +854,25 @@ margin: 100px 0;
 @media (max-width:705px) {
     .sc-4img {
         background-image: url("");
+    }
+    #sc-10{
+        text-align: center;
+    }
+    .testing h2{
+        margin-top: 15%;
+        margin-bottom: 8%;
+        font-size: 23px;
+    }
+    .testing p{
+        margin-bottom: 8%;
+        font-size: 18px;
+    }
+    .testing button{
+        margin-bottom: 7%;
+    }
+    #sc-10{
+        font-size: 25px;
+       
     }
 
 }
@@ -1071,8 +1160,26 @@ margin: 100px 0;
         margin-top: 20px;
         margin-left: 13px;
     }
-   
-
+    .start{
+        align-items: center;
+    }
+   .container11{
+    width: 100%;
+    flex-direction: column;
+text-align: center;
+  
+   }
+   .val{
+    margin: 0 auto;
+   }
+ .val p{
+    margin-bottom: 4px;
+    font-size: 16px;
+ }
+   .val img{
+  width: 100px;
+    margin: 40px auto;
+   }
 
 }
 
