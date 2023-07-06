@@ -795,9 +795,11 @@ padding: auto auto;
 .container11{
     /* border: 2px solid red; */
     display: flex;
-    justify-content: space-evenly;
-    max-width: 1320px;
+    /* justify-content: space-evenly; */
+    max-width: 1332px;
     margin: 0px auto;
+    padding: 2%;
+    /* border: 2px solid red; */
    
    
 }
@@ -805,6 +807,7 @@ padding: auto auto;
 .val{
     width: 25%;
     margin-top: 70px;
+    /* border: 1px solid blue; */
 }
 .val  h3{
     letter-spacing: -.5px;
@@ -823,6 +826,39 @@ padding: auto auto;
 }
 .val img{
     width: 70%;
+}
+/* section12 */
+.sc12{
+    background-color: #b9cde4;
+}
+.priv-img{
+    display: flex;
+}
+.privacy{
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    justify-content: end;
+    /* border: 2px solid black;
+     */
+}
+.privacy p{
+padding-top: 10px;
+    font-size: 19px;
+}
+.privacy a{
+   
+    margin-right: 20px;
+}
+.imagesfb{
+    /* border: 2px solid blue; */
+    width: 40%;
+}
+.imagesfb img{
+   padding: 10px;
+   width: 45px;
+   height: 45px;
+    margin-right: 17px;
 }
 /* .val{
     width: 25%;
@@ -1036,6 +1072,13 @@ padding: auto auto;
    .example-text{
     font-size: 21px;
    }
+   .privacy p {
+    font-size: 17px;
+   }
+   .imagesfb img{
+    width: 40px;
+    height: 40px;
+   }
 }
 
 
@@ -1169,7 +1212,11 @@ padding: auto auto;
 text-align: center;
   
    }
+   .val h3{
+    text-align: center;
+   }
    .val{
+    width: 100%;
     margin: 0 auto;
    }
  .val p{
@@ -1177,8 +1224,14 @@ text-align: center;
     font-size: 16px;
  }
    .val img{
-  width: 100px;
-    margin: 40px auto;
+    width: 100px;
+    margin: 30px auto;
+   }
+   .priv-img{
+    flex-direction: column;
+   }
+   .imagesfb{
+    margin: 0 auto;
    }
 
 }
@@ -1289,6 +1342,19 @@ text-align: center;
 
     .up {
         margin-top: -60%;
+    }
+    .privacy{
+        /* margin-left: 10px; */
+        
+        text-align: center;
+        flex-direction: column;
+    }
+    .imagesfb{
+        text-align: center;
+        width: 100%;
+    }
+    .imagesfb img{
+        margin: auto auto;
     }
 
 
