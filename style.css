@@ -364,6 +364,17 @@ li:hover {
     margin-left: auto;
     margin-right: auto;
 }
+li a{
+    color: #183b56;
+    text-align: center;
+   
+}
+button a{
+    color: white;
+}
+li a:hover{
+    color: #2294ed;
+}
 
 .box-model>img {
     display: block;
